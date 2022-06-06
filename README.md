@@ -21,4 +21,4 @@ It's a very basic app with only one main user feature - the ability to toggle be
 
 
 **Credit**
-- Credit to **Florin Pop** for providing much of the inspiration and base code for this project. This is a remix of his project here:https://www.youtube.com/watch?v=xodD0nw2veQ&t=182s
+- Credit to **Florin Pop** for providing much of the inspiration and base code for this project. This is a remix of his project here: https://www.youtube.com/watch?v=xodD0nw2veQ&t=182s
