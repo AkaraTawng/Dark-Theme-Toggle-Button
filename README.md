@@ -2,10 +2,10 @@
 Simple dark theme toggle button
 
 **Why?**
-This is a mini self-development project. I needed to develop a theme toggle button for a calculator app, so I made this file to experiment with how to do that and it became its own mini project.
+- This is a mini self-development project. I needed to develop a theme toggle button for a calculator app, so I made this file to experiment with how to do that and it became its own mini project.
 
 **Features**
-It's a very basic app with only one main user feature - the ability to toggle between a day and night theme. 
+- It's a very basic app with only one main user feature - the ability to toggle between a day and night theme. When toggle button is clicked, the backgroun, content of the h1, and the color of the button itself will change.
 
 **Languaged Used**
 1. HTML5
