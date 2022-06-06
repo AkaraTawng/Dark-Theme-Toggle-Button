@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./img/daytime.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.dark {
+    
+    background-image:url(./img/nighttime.png);
+    background-size: cover;
+}
+
+body.dark .label {
+    background-color: rgba(158, 158, 158, 0.8);
+}
+
+
+.day-header {
+    margin-top: -10rem;
+    margin-bottom: 6rem;
+    font-size: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 7px;
+    display: none;
+}
+
+.night-header {
+    display: none;
+    margin-top: -10rem;
+    margin-bottom: 6rem;
+    font-size: 4rem;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 7px;
+   
+}
+
+.show {
+    display: block;
+}
+
+
+/* day theme mutlicolor span */
+#day-d{
+    color: #fee440;
+}
+
+#day-a{
+    color: #00bbf9;
+}
+
+#day-y{
+    color: #f15bb5;
+}
+
+
+#day-theme-t{
+    color: #06d6a0;
+}
+
+#day-theme-h{
+    color: #ff5400;
+}
+
+#day-theme-e1{
+    color: #6930c3;
+}
+
+#day-theme-m{
+    color: #fee440;
+}
+
+#day-theme-e2{
+    color: #00bbf9;
+}
+
+/* night theme multicolor span */
+#night-n {
+    color: #f15bb5;
+}
+
+#night-i {
+    color: #ff5400;
+}
+
+#night-g {
+    color: #fee440;
+}
+
+#night-h {
+    color: #00bbf9;
+}
+
+#night-t {
+    color: #6930c3;
+}
+
+#night-theme-t {
+    color: #fee440;
+}
+
+#night-theme-h {
+    color: #06d6a0;
+}
+
+#night-theme-e1 {
+    color: #f15bb5;
+}
+
+#night-theme-m {
+    color: #00bbf9;
+}
+
+#night-theme-e2 {
+    color: #ff5400;
+}
+
+
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+
+
+.label {
+    background-color: rgba(17, 17, 17, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    padding-right: 7px;
+    display: flex;
+    /* width: 28px; */
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f3d112;
+}
+
+
+.ball{
+    position: absolute;
+    border-radius: 50%;
+    height: 52px;
+    background-color: white;
+    width: 50px;
+    left: 3px;
+    transition: transform 0.2s linear;
+
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(94px);
+} 
